@@ -1,0 +1,112 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+    background: #0a0a0f;
+    color: #f0ece0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+     
+  }
+  .hero {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+  }
+   .container {
+    max-width: 600px;
+  }
+ 
+ 
+  h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 100px;
+    font-weight: 300;
+    color: #c9a84c;
+    letter-spacing: 10px;
+    margin-bottom: 24px;
+  }
+ 
+  .info { font-size: 14px;
+    color: #888899;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .btn {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 14px 40px;
+    border: 1px solid #c9a84c;
+    color: #c9a84c;
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+ 
+  .btn:hover {
+    background: #c9a84c;
+    color: #0a0a0f;
+  }
+   .form-section {
+    padding: 100px 40px;
+    text-align: center;
+    border-top: 1px solid rgba(201,168,76,0.15);
+  }
+ 
+  .form-section h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 42px;
+    font-weight: 300;
+    color: #f0ece0;
+    margin-bottom: 8px;
+  }
+  .form-section p {
+    color: #888899;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 48px;
+  }
+ 
+  .form {
+    max-width: 420px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+ 
+  .form input {
+    background: #12121a;
+    border: 1px solid rgba(201,168,76,0.2);
+    color: #f0ece0;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 16px 20px;
+    outline: none;
+    transition: border-color 0.3s;
+    width: 100%;
+  }
+ 
+  .form input::placeholder { color: #888899; }
+ 
+  .form input:focus {
+    border-color: #c9a84c;
+  }
+ 
+  .form .btn {
+    margin-top: 8px;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+  }
+  @media (max-width: 600px) {
+  h1 {
+    font-size: 60px;
+  }
+}
